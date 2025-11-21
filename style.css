@@ -102,7 +102,7 @@ nav a:hover {
   color: white;
 }
 
-/* Hero Section */
+
 .hero {
   display: grid;
   grid-template-columns: 1fr 400px;
@@ -146,7 +146,8 @@ nav a:hover {
   gap: 12px;
 }
 
-/* Card */
+
+
 .card {
   background: rgba(255, 255, 255, 0.9);
   backdrop-filter: blur(20px);
@@ -255,7 +256,7 @@ nav a:hover {
   font-weight: 600;
 }
 
-/* Buttons */
+
 .btn {
   display: inline-block;
   padding: 10px 20px;
@@ -275,6 +276,7 @@ nav a:hover {
 
 .btn-primary:hover {
   background: #1d4ed8;
+  ;
 }
 
 .btn-secondary {
@@ -285,6 +287,7 @@ nav a:hover {
 
 .btn-secondary:hover {
   background: #e5e7eb;
+  
 }
 
 .btn-outline {
@@ -297,7 +300,7 @@ nav a:hover {
   background: #f9fafb;
 }
 
-/* Sections */
+
 .section {
   padding: 60px 0;
   border-bottom: 1px solid rgba(243, 244, 246, 0.5);
@@ -335,7 +338,7 @@ nav a:hover {
   border-radius: 2px;
 }
 
-/* Features */
+
 .features {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -382,7 +385,7 @@ nav a:hover {
   margin: 0;
 }
 
-/* Products */
+
 .products {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -422,7 +425,7 @@ nav a:hover {
   font-weight: bold;
 }
 
-/* Testimonials */
+
 .testimonials {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -441,7 +444,7 @@ nav a:hover {
   margin: 0;
 }
 
-/* Pricing */
+
 .plans {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -494,7 +497,7 @@ nav a:hover {
   font-weight: bold;
 }
 
-/* Contact */
+
 .contact-grid {
   display: grid;
   grid-template-columns: 2fr 1fr;
@@ -543,12 +546,6 @@ button:hover {
   font-weight: 600;
   margin-bottom: 8px;
   color: #111827;
-}
-
-.contact-info hr {
-  border: none;
-  border-top: 1px solid #e5e7eb;
-  margin: 16px 0;
 }
 
 .contact-detail {
