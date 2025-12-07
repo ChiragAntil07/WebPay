@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>WebPay Pro — Upgrade</title>
+  <link rel="stylesheet" href="../style.css">
+  <link rel="stylesheet" href="pro.css">
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="brand">
+        <div class="logo">WP</div>
+        <div>
+          <div class="brand-name">WebPay</div>
+          <div class="tagline">Smart. Simple. Secure.</div>
+        </div>
+      </div>
+
+      <div class="header-right">
+        <nav>
+          <a href="../index.html#features">Features</a>
+          <a href="../index.html#pricing">Pricing</a>
+          <a href="../index.html#contact">Contact</a>
+          <a class="cta" href="../index.html">Back to main</a>
+        </nav>
+        <button class="theme-toggle" type="button" aria-label="Toggle dark mode">
+          🌙
+        </button>
+        <button class="nav-toggle" type="button" aria-label="Toggle navigation">
+          ☰
+        </button>
+      </div>
+    </header>
+
+    <main class="upgrade-main">
+      <section class="section upgrade-section">
+        <h2>Upgrade to WebPay Pro</h2>
+
+        <div class="plans upgrade-plans">
+          <div class="plan card featured upgrade-card">
+            <h3>Pro Plan</h3>
+            <div class="plan-subtitle">For power users & small teams</div>
+            <div class="price">₹ 299 / month (or ₹ 2,869 / year)</div>
+
+            <ul>
+              <li>Advanced analytics & spend insights</li>
+              <li>Up to 10 team cards with controls</li>
+              <li>Priority support and onboarding</li>
+            </ul>
+
+            <form class="mt-12 upgrade-form">
+              <div class="mt-8">
+                <input style="width: 100%;" type="email" placeholder="Work email" required />
+              </div>
+              <div class="mt-8">
+                <input style="width: 100%;" type="text" placeholder="Company name" required />
+              </div>
+              <div class="mt-8">
+                <label for="billing-cycle">Billing Cycle</label>
+                <select id="billing-cycle" class="upgrade-select">
+                  <option value="monthly">Bill monthly — ₹ 299</option>
+                  <option value="yearly">Bill yearly — ₹ 2,869</option>
+                </select>
+              </div>
+              <div class="mt-10">
+                <button class="btn btn-primary" type="button">Proceed to payment (mock)</button>
+              </div>
+            </form>
+
+            <p class="upgrade-note">
+              This is a demo page. No real payment will be processed.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-content">
+        <div>© <strong>WebPay</strong> — Demo. Not an official site.</div>
+        <div class="footer-links">Privacy · Terms · Contact</div>
+      </div>
+    </footer>
+  </div>
+
+  <script src="../script.js"></script>
+</body>
+</html>
