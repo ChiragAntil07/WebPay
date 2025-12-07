@@ -1,0 +1,43 @@
+
+
+.upgrade-main {
+  padding: 40px 20px;
+}
+
+.upgrade-section {
+  border-bottom: none;
+  background: radial-gradient(circle at top, rgba(37, 99, 235, 0.1), transparent 50%);
+}
+
+.upgrade-plans {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.upgrade-card {
+  width: 100%;
+}
+
+.upgrade-form .upgrade-select {
+  width: 100%;
+  padding: 12px;
+  border-radius: 6px;
+  border: 1px solid #d1d5db;
+  font-size: 14px;
+  font-family: inherit;
+}
+
+.upgrade-note {
+  margin-top: 12px;
+  font-size: 12px;
+  color: #6b7280;
+}
+
+
+body.dark-mode .upgrade-section {
+  background: radial-gradient(circle at top, rgba(30, 64, 175, 0.45), transparent 55%);
+}
+
+body.dark-mode .upgrade-note {
+  color: #9ca3af;
+}
