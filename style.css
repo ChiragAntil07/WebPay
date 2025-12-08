@@ -529,11 +529,12 @@ nav a:hover {
   background: #ffffff;
   font-size: 13px;
   cursor: pointer;
+  color: black;
 }
 
 .billing-option.active {
   background: #2563eb;
-  color: #ffffff;
+  color: black;
   border-color: #2563eb;
 }
 
@@ -871,10 +872,7 @@ body.dark-mode .billing-option.active {
     font-size: 28px;
   }
 
-  .features,
-  .products,
-  .testimonials,
-  .plans {
+  .features,.products,.testimonials,.plans {
     grid-template-columns: 1fr;
   }
 
